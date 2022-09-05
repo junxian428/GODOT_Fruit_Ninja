@@ -1,0 +1,33 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://scenes/START.gd" type="Script" id=1]
+
+[node name="START" type="Node2D"]
+script = ExtResource( 1 )
+
+[node name="Button" type="Button" parent="."]
+margin_left = 402.0
+margin_top = 233.0
+margin_right = 494.0
+margin_bottom = 253.0
+rect_scale = Vector2( 5.18745, 10.1397 )
+text = "START GAME"
+
+[node name="Button2" type="Button" parent="."]
+margin_left = 410.0
+margin_top = 470.0
+margin_right = 502.0
+margin_bottom = 490.0
+rect_scale = Vector2( 5.18745, 10.1397 )
+text = "QUIT"
+
+[node name="Label" type="Label" parent="."]
+margin_left = 411.0
+margin_top = 50.0
+margin_right = 477.0
+margin_bottom = 64.0
+rect_scale = Vector2( 6.5515, 10.0354 )
+text = "Fruit Ninja"
+
+[connection signal="pressed" from="Button" to="." method="_on_Button_pressed"]
+[connection signal="pressed" from="Button2" to="." method="_on_Button2_pressed"]

@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/BOMB3.wav-fb7d88c3c93883f8d4c61154278cdf30.sample"
+
+[deps]
+
+source_file="res://assets/BOMB3.wav"
+dest_files=[ "res://.import/BOMB3.wav-fb7d88c3c93883f8d4c61154278cdf30.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0
